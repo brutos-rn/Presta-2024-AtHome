@@ -1,0 +1,4 @@
+services:
+    ArtCategorySearch\Controller\AdminCategorySearchController:
+        public: true
+        class: ArtCategorySearch\Controller\AdminCategorySearchController

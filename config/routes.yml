@@ -1,0 +1,23 @@
+artcategorysearch_search_categories:
+  path: /artcategorysearch/search
+  methods: [GET]
+  defaults:
+    _controller: 'ArtCategorySearch\Controller\AdminCategorySearchController::displayAjaxSearchCategories'
+
+artcategorysearch_add_association:
+  path: /artcategorysearch/add-association
+  methods: [POST]
+  defaults:
+    _controller: 'ArtCategorySearch\Controller\AdminCategorySearchController::displayAjaxAddCategoryAssociation'
+
+artcategorysearch_get_associations:
+  path: /artcategorysearch/get-associations
+  methods: [GET]
+  defaults:
+    _controller: 'ArtCategorySearch\Controller\AdminCategorySearchController::displayAjaxGetAssociations'
+
+artcategorysearch_delete_association:
+  path: /artcategorysearch/delete-association
+  methods: [POST]
+  defaults:
+    _controller: 'ArtCategorySearch\Controller\AdminCategorySearchController::displayAjaxDeleteAssociation'

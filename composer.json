@@ -1,0 +1,13 @@
+{
+    "name": "root/artcategorysearch",
+    "autoload": {
+        "psr-4": {
+            "ArtCategorySearch\\Controller\\": "src/Controller/"
+        }
+    },
+      "config": {
+          "prepend-autoloader": false
+      },
+    "type": "prestashop-module",
+    "require": {}
+}

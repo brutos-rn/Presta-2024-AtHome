@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>artcategorysearch</name>
+    <displayName><![CDATA[Art Category Association Search]]></displayName>
+    <version><![CDATA[1.1.0]]></version>
+    <description><![CDATA[Adds a search field in the Art category to find associated categories.]]></description>
+    <author><![CDATA[Your Name]]></author>
+    <tab><![CDATA[administration]]></tab>
+    <is_configurable>0</is_configurable>
+    <need_instance>1</need_instance>
+</module>

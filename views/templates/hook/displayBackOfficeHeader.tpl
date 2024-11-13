@@ -1,0 +1,1 @@
+<script type="module" src="{$js_path}"></script>
